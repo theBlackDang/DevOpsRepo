@@ -389,7 +389,7 @@ select {
 .bootstrap-select span.pull-left {
     padding-left: 10px;
 }
-
+/*
 .bootstrap-select.btn-group .dropdown-menu.inner {
     position: static; *
     float: none;
@@ -400,7 +400,7 @@ select {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-
+*/
 .bootstrap-select.open .dropdown-menu {
     display: block;
     border: 1px solid #26272d; 
@@ -874,7 +874,7 @@ html, body {
 }
 
 .portfolio-hero {
-    background: url(../img/portfolio-hero.jpg) no-repeat center / cover;     
+    background: url(../img/DevOpsTools.png) no-repeat center / cover;     
 }
 
 .blog-hero {
@@ -982,6 +982,10 @@ html, body {
     font-size: 16px;
     color: #0960d7;
 }
+
+.counter::after{
+    content:'%';
+   }
 
 /* Section: Portfolio */
 .portfolio-item {

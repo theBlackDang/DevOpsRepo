@@ -36,6 +36,7 @@ $(function () {
   });
 
   //Counters
+ 
   if ($(".counter-item [data-to]").length>0) {
       $(".counter-item [data-to]").each(function() {
           var stat_item = $(this),
