@@ -878,7 +878,7 @@ html, body {
 }
 
 .blog-hero {
-    background: url(../img/blog-hero.jpg) no-repeat center / cover;     
+    background: url(../img/dev-ops.jpg) no-repeat center / cover;     
 }
 
 .contact-hero {
@@ -1158,6 +1158,7 @@ html, body {
     font-size: 18px;
     border: 1px solid;
     border-radius: 50px;
+ 
 }
 
 .social-links a:hover {
@@ -1260,6 +1261,7 @@ a.linkedin-bg:hover {
 
 #grid .col-md-4 {
     display: flex;
+
 }
 
 #loadMore {
