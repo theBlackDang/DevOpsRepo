@@ -1259,7 +1259,7 @@ a.linkedin-bg:hover {
 }
 
 #grid .col-md-4 {
-    display: none;
+    display: flex;
 }
 
 #loadMore {
