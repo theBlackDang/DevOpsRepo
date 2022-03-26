@@ -1,3 +1,0 @@
-<!-- User to deploy WAR file from Jenkins to Tomcat -->
-<user username="war-deployer" password="jenkins-tomcat-deploy"
-                                      roles="manager-script" />
