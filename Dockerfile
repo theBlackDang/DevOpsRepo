@@ -1,8 +1,5 @@
-FROM tomcat:7.0.47
-
-ADD **/*.war /apache-tomcat-7.0.47/webapps
-
-EXPOSE 8088
+FROM nginx:alpine
+COPY index.html /usr/share/nginx/html
 
 CMD ["catalina.sh", "run"]
 
