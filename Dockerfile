@@ -1,6 +1,6 @@
 FROM nginx:alpine
-COPY index.html /usr/share/nginx/html
+COPY ./nginx /etc/nginx/conf.d
 
 CMD ["catalina.sh", "run"]
 
-RUN apt-get update && apt-get install -y Maven
+RUN index.php /var/www/html/index.php
