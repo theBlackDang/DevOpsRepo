@@ -4369,3 +4369,6 @@ java.lang.Exception: Resource '/DevOpsProject/pom.xml' does not exist.
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-04-01 12:53:28.134
+!MESSAGE The workspace will exit with unsaved changes in this session.
