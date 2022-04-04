@@ -9,6 +9,20 @@ services:
       - db
     volumes:
       - ./:/opt/webapp
+      - name: nginx-dir
+        emptyDir: { }
+      - name: nginx-empty
+        emptyDir: { }
+      - name: nginx-run
+        emptyDir: { }
+
+    volumeMount:
+      - mountPath: /etc/nginx/conf.d/
+        name: nginx-dir
+      - mountPath: /var/cache/nginx/client_temp
+        name: nginx-empty
+      - mountPath: /var/run/
+        name: nginx-run
   db:
     image: nginx:latest
     ports:
