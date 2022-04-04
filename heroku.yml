@@ -6,4 +6,4 @@ run:
 release:
   image: devops
   command:
-    - npm run migrate up
+    - cd ./migrations && ./hasura migrate apply --endpoint $(heroku info -s | grep web_url | cut -d= -f2)
