@@ -2,6 +2,7 @@ build:
   docker:
     web: Dockerfile
 run:
+  image: devops
   web: npm run start
 release:
   image: devops
