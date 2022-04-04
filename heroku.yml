@@ -1,14 +1,9 @@
-setup:
-  addons:
-    - plan: heroku-postgresql
-      as: DATABASE
-  config:
-    S3_BUCKET: my-example-bucket
 build:
   docker:
     web: Dockerfile
-    worker: worker/Dockerfile
+run:
+  web: npm run start
 release:
   image: devops
   command:
-    - ./deployment-tasks.sh
+    - npm run migrate up
